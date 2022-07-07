@@ -69,10 +69,35 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["galaxyline.nvim"] = {
+    loaded = true,
+    path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/galaxyline.nvim",
+    url = "git@github.com:glepnir/galaxyline.nvim"
+  },
   ["gruvbox-material"] = {
     loaded = true,
     path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/gruvbox-material",
     url = "git@github.com:sainnhe/gruvbox-material"
+  },
+  ["lspsaga.nvim"] = {
+    loaded = true,
+    path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
+    url = "git@github.com:glepnir/lspsaga.nvim"
+  },
+  ["nvim-transparent"] = {
+    loaded = true,
+    path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/nvim-transparent",
+    url = "git@github.com:xiyaowong/nvim-transparent"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "git@github.com:kyazdani42/nvim-tree.lua"
+  },
+  ["nvim-web-devicons"] = {
+    loaded = true,
+    path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    url = "git@github.com:kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
