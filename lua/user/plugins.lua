@@ -53,8 +53,8 @@ return packer.startup(function(use)
   
   -- status line
   use {"glepnir/galaxyline.nvim", branch = "main"}
-  -- lsp
-  use {"glepnir/lspsaga.nvim", branch = "main"}
+  -- toggleterm
+  use "akinsho/toggleterm.nvim"
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

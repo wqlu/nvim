@@ -79,11 +79,6 @@ _G.packer_plugins = {
     path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/gruvbox-material",
     url = "git@github.com:sainnhe/gruvbox-material"
   },
-  ["lspsaga.nvim"] = {
-    loaded = true,
-    path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
-    url = "git@github.com:glepnir/lspsaga.nvim"
-  },
   ["nvim-transparent"] = {
     loaded = true,
     path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/nvim-transparent",
@@ -113,6 +108,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "git@github.com:nvim-lua/popup.nvim"
+  },
+  ["toggleterm.nvim"] = {
+    loaded = true,
+    path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
+    url = "git@github.com:akinsho/toggleterm.nvim"
   }
 }
 
