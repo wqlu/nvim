@@ -55,6 +55,13 @@ return packer.startup(function(use)
   use {"glepnir/galaxyline.nvim", branch = "main"}
   -- toggleterm
   use "akinsho/toggleterm.nvim"
+  -- lsp complete
+  use { 'jayli/vim-easycomplete' }
+  use { 'SirVer/ultisnips' }
+
+  -- treesitter
+  use {'nvim-treesitter/nvim-treesitter'}
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
