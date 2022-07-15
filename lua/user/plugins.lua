@@ -50,7 +50,7 @@ return packer.startup(function(use)
   -- colorscheme
   use "sainnhe/gruvbox-material"
   use "xiyaowong/nvim-transparent"
-  
+
   -- status line
   use {"glepnir/galaxyline.nvim", branch = "main"}
   -- toggleterm

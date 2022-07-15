@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "git@github.com:kyazdani42/nvim-tree.lua"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "git@github.com:nvim-treesitter/nvim-treesitter"
+  },
   ["nvim-web-devicons"] = {
     loaded = true,
     path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
@@ -113,6 +118,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/toggleterm.nvim",
     url = "git@github.com:akinsho/toggleterm.nvim"
+  },
+  ultisnips = {
+    loaded = true,
+    path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/ultisnips",
+    url = "git@github.com:SirVer/ultisnips"
+  },
+  ["vim-easycomplete"] = {
+    loaded = true,
+    path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/vim-easycomplete",
+    url = "git@github.com:jayli/vim-easycomplete"
   }
 }
 
