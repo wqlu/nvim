@@ -69,6 +69,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["auto-pairs"] = {
+    loaded = true,
+    path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/auto-pairs",
+    url = "git@github.com:jiangmiao/auto-pairs"
+  },
   ["galaxyline.nvim"] = {
     loaded = true,
     path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/galaxyline.nvim",
@@ -78,6 +83,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/gruvbox-material",
     url = "git@github.com:sainnhe/gruvbox-material"
+  },
+  ["indent-blankline.nvim"] = {
+    loaded = true,
+    path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
+    url = "git@github.com:lukas-reineke/indent-blankline.nvim"
   },
   ["nvim-transparent"] = {
     loaded = true,
@@ -113,6 +123,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/popup.nvim",
     url = "git@github.com:nvim-lua/popup.nvim"
+  },
+  ["tabline.nvim"] = {
+    loaded = true,
+    path = "/Users/xiawanqi/.local/share/nvim/site/pack/packer/start/tabline.nvim",
+    url = "git@github.com:kdheepak/tabline.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,

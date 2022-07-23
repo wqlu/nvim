@@ -46,6 +46,8 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins
   use 'kyazdani42/nvim-web-devicons'
   use 'kyazdani42/nvim-tree.lua'
+  use 'jiangmiao/auto-pairs'
+  use "lukas-reineke/indent-blankline.nvim"
 
   -- colorscheme
   use "sainnhe/gruvbox-material"
@@ -53,6 +55,7 @@ return packer.startup(function(use)
 
   -- status line
   use {"glepnir/galaxyline.nvim", branch = "main"}
+  use {"kdheepak/tabline.nvim"}
   -- toggleterm
   use "akinsho/toggleterm.nvim"
   -- lsp complete
