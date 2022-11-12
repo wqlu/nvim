@@ -17,7 +17,9 @@ require("transparent").setup({
     "PmenuSbar",
     "TabLineFill"
   },
-  exclude = {}, -- table: groups you don't want to clear
+    exclude = {
+        "TabLineSel"
+    }, -- table: groups you don't want to clear
 })
 
 vim.opt.list = true

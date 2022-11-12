@@ -27,7 +27,7 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 
 keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 keymap("n", "<leader>w", ":w<CR>", opts)
-keymap("n", "<leader>t", ":ToggleTerm direction=horizontal<CR>", opts)
+keymap("n", "<leader>t", ":ToggleTerm<CR>", opts)
 
 -- Resize with arrows
 keymap("n", "<C-Up>", ":resize +2<CR>", opts)
