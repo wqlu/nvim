@@ -63,7 +63,10 @@ return packer.startup(function(use)
   use { 'SirVer/ultisnips' }
 
   -- treesitter
-  use {'nvim-treesitter/nvim-treesitter'}
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate'
+    }
 
   -- telescope
   -- Telescope
