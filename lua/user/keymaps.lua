@@ -27,6 +27,7 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 
 keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 keymap("n", "<leader>w", ":w<CR>", opts)
+keymap("n", "<leader>q", ":q<CR>", opts)
 keymap("n", "<leader>tt", ":ToggleTerm<CR>", opts)
 keymap("n", "<leader>tv", ":ToggleTerm direction=horizontal<CR>", opts)
 
